@@ -1,0 +1,152 @@
+:root {
+    --light: #FFFCEE;
+    --pink: #FCF1E7;
+    --darkgreen: #5A6955;
+    --lightgreen: #6F9283;
+    --navy: #696D7D;
+}
+
+body{
+    max-width: 2000px;
+    margin: 0 auto;
+    background-color: var(--light);
+    color: var(--darkgreen)
+}
+
+ul{
+    list-style: none
+}
+
+.btn:hover{
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Text */
+h1, h2, h3 , h4, h5, h6, a, p {
+    font-family: Poppins, sans-serif;
+  }
+
+.h2, h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--darkgreen);
+}
+
+a{
+    color: var(--darkgreen) !important;
+}
+a:hover{
+    color: var(--lightgreen) !important;
+    text-decoration: none;
+}
+
+a:hover svg{
+    fill: var(--lightgreen) !important;
+}
+
+/* Buttons */
+.btn-primary{
+    background: var(--darkgreen);
+    padding: 10px;
+    border-radius: 30px;
+    color: var(--light) !important;
+    width: 150px;
+    text-align: center;
+    font-weight: 300;
+    align-self: end;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: var(--lightgreen);
+    color: var(--darkgreen) !important;
+}
+
+/* Hero */
+.jumbotron{
+    background: none;
+    padding: 0 1rem !important; 
+}
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+    width: 100%;
+    background-color: var(--light) !important;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Main content */
+.card {
+    border: none;
+    background-color: var(--light);
+}
+
+.card-title{
+    font-size: 23px;
+}
+
+.hero .col-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img{
+    background: var(--light);
+    max-width: 500px;
+}
+
+/* My work */
+.card{
+    margin: 0 auto;
+    background-color: var(--light);
+}
+#mywork .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.card-img{
+    overflow: hidden;
+}
+.card-img, .card-img-top {
+    border-radius: 0 !important;
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.card img{
+    filter: grayscale(100%);
+    transition: all 0.6s ease;
+}
+
+.card:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+.card-footer{
+    font-weight: bold;
+    background: none;
+}
+
+/* Skills */
+
+#skills ul{
+    margin: 0 auto;
+}
+
+/* Footer */
+
