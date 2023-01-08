@@ -4,7 +4,7 @@ This is my personal portfolio which has been created using HTML, CSS and bootstr
 Link to the deployed project: 
 
 # Screenshot 
-![screenshot of portfolio](assets/images/screenshot.pngimages/ "screen shot of portfolio")
+![screenshot of portfolio](assets/images/screenshot.png/ "Screen shot of portfolio")
 
 # Installation
 Clone the repo from github and run it on your local machine
