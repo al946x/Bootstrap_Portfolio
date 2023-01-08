@@ -1,9 +1,7 @@
 :root {
     --light: #FFFCEE;
-    --pink: #FCF1E7;
     --darkgreen: #5A6955;
     --lightgreen: #6F9283;
-    --navy: #696D7D;
 }
 
 body{
@@ -24,7 +22,7 @@ ul{
 
 /* Text */
 h1, h2, h3 , h4, h5, h6, a, p {
-    font-family: Poppins, sans-serif;
+    font-family: poppins, sans-serif;
   }
 
 .h2, h2 {
@@ -54,7 +52,6 @@ a:hover svg{
     width: 150px;
     text-align: center;
     font-weight: 300;
-    align-self: end;
     border: none;
 }
 
@@ -69,9 +66,16 @@ a:hover svg{
     padding: 0 1rem !important; 
 }
 
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
 /* Navigation bar */
 
-/* General */
 .customNav {
     width: 100%;
     background-color: var(--light) !important;
@@ -88,7 +92,7 @@ a:hover svg{
     margin: 0px 15px;
   }
   
-  /* Main content */
+  /* Main */
 .card {
     border: none;
     background-color: var(--light);
@@ -147,6 +151,3 @@ a:hover svg{
 #skills ul{
     margin: 0 auto;
 }
-
-/* Footer */
-
